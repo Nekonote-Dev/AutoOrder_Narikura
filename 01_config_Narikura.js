@@ -34,6 +34,9 @@ var NARIKURA_BASE_CONFIG = {
       CONTACT: "order.narikura@gmail.com",
     },
   },
+  PRINT_SERVICE: {
+    PENDING_FOLDER_ID: "1SvUS1dG0wbaeruYHhkrOoDKpbbcsHYgR",
+  },
 };
 
 // NARIKURA 専用の最終 BASE_CONFIG を作成
