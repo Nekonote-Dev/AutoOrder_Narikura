@@ -5,9 +5,9 @@ function runPrintMails() {
     Logger.log("-----メール印刷処理を開始します-----");
     
     var CONFIG = [
-      CONFIG_AOI_WAO,
-      CONFIG_AOI_KURUMESHI,
-      CONFIG_AOI_CHEF_COLLE,
+      CONFIG_NARIKURA_WAO,
+      CONFIG_NARIKURA_KURUMESHI,
+      CONFIG_NARIKURA_CHEF_COLLE,
     ];
     
     CommonLib.printMails(CONFIG);
