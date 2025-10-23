@@ -1,8 +1,16 @@
+// 現時点はワオ、くるめし、シェフコレだけ対応
+
 function runPrintMails() {
   try {
     Logger.log("-----メール印刷処理を開始します-----");
     
-    CommonLib.printMails();
+    var CONFIG = [
+      CONFIG_AOI_WAO,
+      CONFIG_AOI_KURUMESHI,
+      CONFIG_AOI_CHEF_COLLE,
+    ];
+    
+    CommonLib.printMails(CONFIG);
     
     Logger.log("-----メール印刷処理が完了しました-----");
   } catch (e) {
