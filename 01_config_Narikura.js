@@ -35,6 +35,14 @@ var NARIKURA_BASE_CONFIG = {
         "d6502ba8b181e80cb056d44baf3a1653224e60a0ee66ab85cce25765ffcdc4ae@group.calendar.google.com",
       // 連絡事項
       CONTACT: "order.narikura@gmail.com",
+      // ①現場確認済
+      FIELD_CONFIRMED: "c91bf87aac6cbe5716dfa672ea2e0330a7877fc06b8f2a37dec8d6eed7814159@group.calendar.google.com",
+      // ③現場印刷済（現場）
+      FIELD_PRINTED: "efe8bbf1f0834d19d471baf9ce1632f3207c0e258b92596607d151fe3625bc21@group.calendar.google.com",
+      // ⑤納品書印刷済
+      DOCUMENT_PRINTED: "fb6ebcebc06a3b7593763488b196ba0969de489bd3a77d790e732f6e80cca77f@group.calendar.google.com",
+      // ★変更確認済
+      CHANGE_CONFIRMED: "ff46cf01bc9d42b83d5c2f4a05a251e6ecf549f68042892deaaaba9f17dafded@group.calendar.google.com",
     },
   },
   PRINT_SERVICE: {
