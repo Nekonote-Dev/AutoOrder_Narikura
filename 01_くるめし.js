@@ -1,3 +1,3 @@
 function runAutoOrderKurumeshi() {
-  CommonLib.autoOrder(CommonLib.CONFIG_NARIKURA_KURUMESHI);
+  CommonLib.autoOrder(CONFIG_NARIKURA_KURUMESHI);
 }
